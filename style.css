@@ -1,0 +1,52 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; 
+}
+
+h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+    color: #007a99;
+    text-transform: uppercase;
+
+}
+h4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 7rem;
+
+}
+
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+
+    color: rgb(53, 52, 52);
+    line-height: 1.5rem;
+}
+#logo{
+    width: 100px;
+}
+
+#my-img{
+    width: 80%;
+}
+
+img{
+    width: 250px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+#link-a{
+    color: #007a99;
+
+}
