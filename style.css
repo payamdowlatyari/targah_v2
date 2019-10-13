@@ -1,8 +1,14 @@
 
+/* 
+WRITTEN BY: Payam Dowlatyari
+EMAIL: pdowlaty@uci.edu 
+*/
+
 html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     margin: 0 0 100px; 
 }
@@ -13,9 +19,10 @@ h1,h2,h3{
     text-transform: uppercase;
 
 }
+
 h4{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    line-height: 7rem;
+    line-height: 2em;
 
 }
 
@@ -23,8 +30,9 @@ p{
     font-family: 'Alegreya Sans', sans-serif;
 
     color: rgb(53, 52, 52);
-    line-height: 1.5rem;
+    line-height: 1em;
 }
+
 #logo{
     width: 100px;
 }
@@ -50,3 +58,9 @@ footer {
     color: #007a99;
 
 }
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
